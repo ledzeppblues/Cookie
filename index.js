@@ -23,7 +23,7 @@ modal.addEventListener("submit", function (e) {
     <h2>Making the sale</h2>
     </div>
   </div>`;
-  }, 3000);
+  }, 3500);
 
   setTimeout(function () {
     modal.innerHTML = `<div class="img">
@@ -32,6 +32,7 @@ modal.addEventListener("submit", function (e) {
     <h2>This was a waste of time 😑</h2>
     </div>
   </div>`;
-  }, 6000);
+  }, 7000);
 });
+
 
