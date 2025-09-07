@@ -29,10 +29,11 @@ modal.addEventListener("submit", function (e) {
     modal.innerHTML = `<div class="img">
     <img src="fade-stagger-circles.svg" alt="loading" width="120px">
     <div>
-    <h2>This was a waste of time 😑</h2>
+    <h2>Just Showing off some cookies skills, you may close the site</h2>
     </div>
   </div>`;
   }, 7000);
 });
+
 
 
