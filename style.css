@@ -1,0 +1,129 @@
+body {
+  font-family: "Roboto", sans-serif;
+
+  background-color: #f8f9fa;
+  color: #333333;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  font-weight: 800;
+  color: #2b2d42;
+  background-color: #edf2f4;
+  justify-content: center;
+  color: #2b2d42;
+}
+
+.secrets {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px; /* stops text touching screen edges on small devices */
+  text-align: center;
+}
+
+ul li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.article {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.footwear {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* white box for readability */
+  color: #444444;
+  line-height: 1.8;
+  border-radius: 8px; /* optional: rounded edges */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* optional: subtle depth */
+}
+
+.footer,
+footer {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* white box for readability */
+  color: #444444;
+  line-height: 1.8;
+  border-radius: 8px; /* optional: rounded edges */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* optional: subtle depth */
+}
+
+.modal {
+  display: flex;
+  width: 350px;
+  padding: 40px;
+  margin: 0 auto;
+  flex-direction: column;
+  line-height: 1.6;
+  border: 1px solid #2b2d42;
+  background-color: #fff;
+  color: #2b2d42;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-div {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 50px;
+  /* padding-bottom: 50px; */
+}
+
+.btn {
+  background-color: #457b9d;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  gap: 50px;
+}
+
+.btn:hover {
+  background-color: #1d3557; /* hover effect */
+}
+
+.input {
+  padding: 5px 5px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 5px;
+  /* align-items: center; */
+  /* margin-left: 50px; */
+}
+
+.modal {
+  position: fixed;
+  top: 150px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  height: 400px;
+  font-weight: 400;
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.img {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.modal.img-only {
+  padding: 0px; /* less space at top */
+}
